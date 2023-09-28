@@ -1,0 +1,12 @@
+//file name is display.jsp
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display User Input</title>
+</head>
+<body>
+    <h1>User Input</h1>
+    <p>Your Name: ${param.userName}</p>
+</body>
+</html>
